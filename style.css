@@ -1,0 +1,29 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.navigation{
+overflow:auto;
+}
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float:left;
+    padding:15px;
+}
+.col-1{
+    width:8.33%;
+}
+.col-8{
+    width:66.66%;
+
+}
+.col-4{
+    width:32.32%;
+}
+.link-item{
+    float:left;
+    padding:5px;
+}
